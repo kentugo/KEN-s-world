@@ -3,33 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <title>My Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Your Name</h1>
-    <p>Web Developer | Student | Beginner</p>
-  </header>
+  <!-- Navigation -->
+  <nav>
+    <h1 class="logo">YourName</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#goals">Goals</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <section class="about">
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm <span>Your Name</span></h2>
+    <p>Creative Web Developer • HTML & CSS Specialist</p>
+    <a href="#projects" class="btn">Explore My Projects</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-      Hi! I'm learning HTML and CSS. This is my first portfolio website.
+      I am a passionate web developer focused on building visually
+      appealing and user-friendly websites. I enjoy turning ideas
+      into real digital experiences using modern HTML and CSS.
     </p>
   </section>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>Simple Website</li>
-      <li>HTML Practice Page</li>
-      <li>My First Portfolio</li>
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>Bachelor / Diploma / High School</h3>
+      <p>Institution Name</p>
+      <span>2022 – 2026</span>
+    </div>
+  </section>
+
+  <!-- Goals -->
+  <section id="goals" class="section">
+    <h2>My Goals</h2>
+    <ul class="goals">
+      <li>Become a full-stack web developer</li>
+      <li>Build professional websites & applications</li>
+      <li>Work with modern web technologies</li>
+      <li>Grow as a creative problem solver</li>
     </ul>
   </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Email: youremail@exa
+  <!-- Projects -->
+  <section id="projects" class="section alt">
+    <h2>Projects</h2>
 
-        
+    <div class="projects">
+      <a href="project1.html" class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio built with HTML & CSS</p>
+      </a>
+
+      <a href="project2.html" class="project-card">
+        <h3>Landing Page</h3>
+        <p>Modern responsive landing page design</p>
+      </a>
+
+      <a href="project3.html" class="project-card">
+        <h3>Practice Project</h3>
+        <p>HTML & CSS learning project</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+      <p><strong>Email:</strong> youremail@example.com</p>
+      <p><strong>Phone:</strong> +123 456 7890</p>
+      <p><strong>Location:</strong> Your City, Country</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Your Name | Designed & Built by You</p>
+  </footer>
+
+</body>
+</html>
