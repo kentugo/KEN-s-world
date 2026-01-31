@@ -1,2 +1,2 @@
 # Portfolio
-this is my journey in highschool
+this is The Coding journey
